@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.getElementById("toggle-mode");
     const body = document.body;
 
-    // Aplica o tema salvo no cookie
     const savedTheme = getCookie("theme");
     if (savedTheme === "dark") {
         body.classList.add("dark-mode");
